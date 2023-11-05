@@ -4,9 +4,9 @@ html {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  margin: 200px;
+  margin: 10%;
   margin-top: 10px;
-  padding: 50px;
+  padding: 3%;
   color: #242424;
   border-top: 10px solid #242424;
   background: #fff;
@@ -64,49 +64,130 @@ h2{
 }
 
 h3{
-  text-align:left ;
+  text-align:left;
+  font-size: 1.7em;
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  text-align: center;
+  font-size: 1.9em;
+  margin: 0 auto;
+  padding-top: 20px;
+  border-top: 2px solid #9f4c15;
+}
+
+.author {
+  text-align: left;
+  font-size: 0.8em;
+}
+
+time {
+  text-align: left;
+  font-size: 0.8em;
 }
 
 p {
-  line-height: 1.4em;
-  width: 400px;
-  margin: 20px;
-  padding: 20px;
+  line-height: 1.6em;
+  width: 80%;
+  margin: 0%;
+  padding: 5%;
 }
 
+.img-template1 {
+  background: no-repeat center / cover url(Images/RawBean.jpeg);
+  height: 250px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.img-template2 {
+  background: no-repeat url(Images/RoasteryMAN.jpeg);
+  background-size: cover;
+  height: 300px;
+  border-radius: 10px;
+  background-position: 0px -50px;
+  margin-bottom: 20px;
+}
+
+.img-template3 {
+  background: no-repeat center / cover url(Images/RoastedBean.jpeg);
+  height: 250px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.img-template4 {
+  background: no-repeat center / cover url(Images/GroundTurkish.png);
+  height: 250px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.img-template5 {
+  background: no-repeat center / cover url(Images/DSC_4786.jpg);
+  padding-top: 66.5%;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+}
 
 #blog {
-  border-top: 1px dotted #ccc;
-  display: flex;
-}
-
-#blog2 {
-  display: flex;
+  border-top: 5px solid #000000;
+  width: 100%;
 }
 
 .blog-post {
-  border-bottom: 1px dotted #ccc;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blog-content {
+  width: 100%;
+  flex: 2;
+}
+
+.blog-image {
+  flex: 1;
+  padding: 20px;
 }
 
 article {
-  border-bottom: 1px solid black;
-  padding: 20px;
+  width: 100%;
   margin: 20px;
 }
 
 table{
-  display: table;
-  text-align: center;
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 60%;
   border: 2px solid #000;
 }
 
 th {
-  padding: 8px;
+  text-align: center;
   border: 2px solid #000;
+  padding: 4px;
 }
 
-tr:nth-child(){
+tr {
+  
   border: 2px #000;
+}
+
+td {
+  text-align: center;
+  border: 2px solid #000;
+  padding: 4px;
+}
+
+.title-table {
+  background-color: #e9ae87;
 }
 
 form {

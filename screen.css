@@ -4,8 +4,8 @@ html {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  margin: 40px;
-  padding: 40px;
+  margin: 100px;
+  padding: 100px;
   color: #242424;
   border-top: 10px solid #242424;
   background: #fff;
@@ -14,6 +14,16 @@ body {
 h1 {
   font-size: 3em;
   margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+h2{
+  text-align: center;
+}
+
+h3{
+  text-align:left ;
 }
 
 p {
@@ -21,6 +31,37 @@ p {
   width: 400px;
   margin: 20px;
   padding: 20px;
+}
+
+table{
+  display: table;
+  text-align: center;
+  border: 2px solid #000;
+}
+
+th {
+  padding: 8px;
+  border: 2px solid #000;
+}
+
+tr:nth-child(){
+  border: 2px #000;
+}
+
+
+header {
+  background: #9f4c15;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 10;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
 }
 
 #blog {
@@ -34,6 +75,28 @@ p {
 article {
   border-bottom: 1px solid black;
 }
+
+form {
+  margin: 10px 0;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background: #555555;
+  z-index: 100;
+}
+
+#communicate {
+  display: flex;
+}
+
+
+form{
+  flex: 1;
+  margin: 10px;
+}
+
 
 
 

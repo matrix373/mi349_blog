@@ -75,7 +75,6 @@ h4 {
   font-size: 1.9em;
   margin: 0 auto;
   padding-top: 20px;
-  border-top: 2px solid #9f4c15;
 }
 
 .author {
@@ -129,6 +128,13 @@ p {
   background: no-repeat center / cover url(Images/DSC_4786.jpg);
   padding-top: 66.5%;
   width: 100%;
+  margin-bottom: 20px;
+}
+
+.img-template6 {
+  background: no-repeat center / cover url(Images/MeROASTER.jpeg);
+  height: 850px;
+  border-radius: 10px;
   margin-bottom: 20px;
 }
 
@@ -190,15 +196,92 @@ td {
   background-color: #e9ae87;
 }
 
-form {
-  margin: 10px 0;
+.newsletter-sign {
+  margin-top: 30px;
+  border-top: 4px solid #000;
+  padding: 20px;
+}
+
+.newsletter-sign h2{
+  font-size: 1.7em;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 form{
-  flex: 1;
+  font-family: 'Courier New', Courier, monospace;
   margin: 10px;
+  padding: 10px;
 }
 
+label {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.4em;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+button {
+  font-family: 'Courier New', Courier, monospace;
+  color: #ffffff;
+  background-color: #9f4c15;
+  border-radius: 10%;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile-picture img {
+  height: 30%;
+  width: 30%;
+  border-radius: 15px;
+  margin: 45px 15px 10px 30px;
+  float: left;
+}
+
+.hobby-list {
+  margin: 40px 20px 20px 20px;
+  font-size: 1.3em;
+  color:#242424 ;
+  float: right;
+}
+
+#communicate {
+  padding: 20px;
+  border-top: 2px solid #000;
+  margin: 20%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#communicate form{
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  text-align: center;
+}
+
+#communicate input{
+  width: 40%;
+  margin: 0 auto;
+}
+
+#communicate label {
+  padding: 10px 0;
+}
+
+#communicate select{
+  width: 60%;
+}
+
+#communicate textarea{
+  margin: 10px;
+}
 
 
 

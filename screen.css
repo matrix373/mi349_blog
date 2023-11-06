@@ -46,6 +46,11 @@ nav {
   background: #9f4c15;
 }
 
+nav a{
+  text-decoration: none;
+  color: #fff;
+}
+
 
 h1 {
   text-align: center;
@@ -288,7 +293,9 @@ main {
   margin: 10px;
 }
 
-
+input[type="e-mail"] {
+  background-color: #959494;
+}
 
 
 
